@@ -1,14 +1,9 @@
-function check_to_see_if_the_first_cart_is_full(crt) {
-  let full = false
-  if (crt.size > 100) {
-    full = true
-  }
-  return full;
+function check_to_see_if_the_first_cart_is_full(carts) {
+ return carts.size > 100;
 }
 
-let cart_name_as_string = 'Shopping Cart';
 let the_carts = [{
-  name: cartNameAsString,
+  name: 'Shopping Cart',
   size: 101
 }];
 
